@@ -1,0 +1,156 @@
+@media only screen and (max-width: 1200px) {
+    .container {
+        width : 992px;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    li.nav-item {
+        padding: 0 10px;
+    }
+    .elegant img {
+        width: 275px;
+        padding-right: 40px;
+    }
+   
+}
+@media only screen and (max-width: 992px) {
+    .container {
+        width : 768px;
+    }
+    .about {
+        width: 48%;
+    }
+    .about_work{
+        width: 48%;
+    }
+    .elemets {
+        width: 48%;
+    }
+    .what {
+        flex-wrap: wrap;
+    }
+    .features {
+        flex-direction:column;
+    }
+    .elegant img {
+        width: 100%;
+    }
+    .elegant {
+        width: 95%;
+        padding-top: 30px;
+    }
+    .information{
+        flex-direction:column;
+    }
+    .contact_left {
+        width: 98%;
+    }
+    .contact_right {
+        width: 98%;
+        transform: none;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .input {
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        width : 600px;
+    }
+    .fas_burger {
+        display: block;
+    }
+    .nav {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fas_burger {
+        color: #fff;
+    }
+    li.nav-item {
+        padding: 5px 10px;
+    }
+    .nav-link {
+        border: 0;
+    }
+    nav {
+        display: none;
+        padding: 30px;
+    }
+    nav ul {
+        display: none;
+    }
+    .fas_burger {
+        font-size: 22px;
+        color: #fff;
+        float: right;
+        transform: translateY(-50px);
+    }
+    .header_left {
+        float:none;
+    }
+    .header_right {
+        float: none;
+    }
+    .lorem_left {
+        width: 100%;
+    }
+    .dedic_right {
+        width: 100%;
+    }
+    .row_black {
+        height: auto;
+    }
+    .footer_left {
+        float: none;
+        text-align: center;
+    }
+    .footer_right {
+        float: none;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        width : 480px;
+    }
+    .about {
+        width: 98%;
+    }
+    .about_work{
+        width: 98%;
+    }
+    .elemets {
+        width: 98%;
+    }
+    .what {
+        flex-direction: column;
+    }
+    textarea {
+        width: 300px !important; 
+    }
+    .send {
+        margin-bottom: 10px;
+    }
+    /* .message {
+        display: none;
+    }
+    .message2 {
+        display: block;
+    } */
+}
+@media only screen and (max-width: 480px) {
+    .container {
+        width : 320px;
+    }
+    .wi_are h1 {
+        font-size: 30px;
+    }
+}
